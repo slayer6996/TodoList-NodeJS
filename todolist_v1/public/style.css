@@ -1,0 +1,50 @@
+body{
+    background-color: rgb(23, 27, 29);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main{
+    background-color: rgb(140, 157, 236);
+    padding: 10%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 5px;
+}
+
+.newtask{
+    border: none;
+    height: 4vh;
+    border-radius: 25px;
+}
+
+.add-btn{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+    background-color: rebeccapurple;
+    color: white;
+    border-radius: 100px;
+}
+
+.checkbox{
+    display: inline;
+}
+
+h4{
+    display: inline;
+}
+
+input:checked+h4{
+    text-decoration: line-through;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h5{
+    display: block;
+}
